@@ -1,91 +1,25 @@
+
 body {
   background: rgb(0,0,115);
   background: linear-gradient(265deg, rgba(0,0,115,1) 0%, rgba(13,13,162,1) 24%, rgba(0,212,255,1) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 * {
   color: rgb(255, 255, 255);
-  font-family: Arial;
+  font-family: monospace;
  }
- 
+ html {
+   font-family: monospace;
+ }
  /*navbar */
 
  .navbar a:hover {
   background-color: blue;
 }
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-/* */
 
-.navbar {
-  overflow: hidden;
-  background-color: 
-  black;
-}
-
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: blue;
-}
-
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background: rgb(0,0,158);
-  background: linear-gradient(267deg, rgba(0,0,158,1) 0%, rgba(68,182,255,1) 100%);
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: white;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: rgb(39, 9, 207);
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
- 
 
 /*main page */
 .description {
@@ -106,16 +40,15 @@ body {
 
 
 /* FAQ */
-a{
-  color: #282425!important;	
-  }
+
 
   .card-header {
-      background-color: rgba(245, 245, 245, 0)!important;
+      background-color: rgb(61, 61, 61)!important;
     border-radius:0!important;
   }
   .card{
   border-radius:0!important;
+  background-color: rgb(41, 41, 41)!important;
   }
   
   .card > .card-header a::before {
@@ -131,3 +64,8 @@ a{
 .accordion{
  color: black;
 }
+
+.stackem div {
+  width: 100%;
+}
+
