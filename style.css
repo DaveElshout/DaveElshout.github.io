@@ -1,7 +1,4 @@
-.container-fluid {
-  width: 95% !important;
-  float: left !important;
-}
+
 body {
   background: rgb(0,0,115);
   background: linear-gradient(265deg, rgba(0,0,115,1) 0%, rgba(13,13,162,1) 24%, rgba(0,212,255,1) 100%);
@@ -13,15 +10,15 @@ body {
 * {
   color: rgb(255, 255, 255);
   font-family: monospace;
+  font-size: 14px ;
  }
- html {
-   font-family: monospace;
- }
- /*navbar */
+ 
 
+ /*navbar */
  .navbar a:hover {
   background-color: blue;
 }
+/*navbar*/
 
 
 /*main page */
@@ -40,11 +37,20 @@ body {
   font-size: 1.3rem;
   line-height: 1.5;
 }
+/*main page
 
+profile page*/
+
+.profile-photo {
+  width: 70px; 
+  height: 70px;
+  margin-left: 20px;
+  margin-top: 15px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
 
 /* FAQ */
-
-
   .card-header {
       background-color: rgb(61, 61, 61)!important;
     border-radius:0!important;
@@ -54,21 +60,54 @@ body {
   background-color: rgb(41, 41, 41)!important;
   }
   
-  .card > .card-header a::before {
-      font-family: fontawesome;
-      content: "\f067 ";
-      color: #282425;
-      float: right;
-      margin-right: 15px;
-      font-weight: 400;
-      position: absolute;
-      right: 0;
+  .accordion{
+    color: black;
   }
-.accordion{
- color: black;
+/*FAQ*/
+
+
+/*dashboard sidebar buttons*/
+a.button:before, a.button:after{
+	content: '';
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	transition: all 0.3s ease;
+}
+a.button:before{
+	top: -2.5%;
+	left: -1%;
+	border-top: 2px solid white;
+	border-left: 2px solid white;	
+}
+a.button:after{
+	bottom: -2.5%;
+	right: -1%;
+	border-bottom: 2px solid white;
+	border-right: 2px solid white;
+}
+a.button:hover:before, a.button:hover:after{
+	width: 100%;
+	height: 100%;
+	transition: all 0.3s ease;
+}
+.button{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	position: relative;
+  padding: 10px;
+  margin: 10px;
+/*dashboard sidebar buttons
+
+
+dashboard container positions*/
+.container-fluid {
+  width: 95% !important;
+  float: left !important;
 }
 
 .stackem div {
   width: 100%;
 }
-
