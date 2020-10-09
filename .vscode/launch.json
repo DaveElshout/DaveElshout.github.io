@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "pwa-chrome",
+            "url": "http://localhost",
+            "webRoot": "${C:/hbo-ict/jaar1/kwartiel1/code/DaveElshout.github.io}"
+        },
+    
+        
+
+
+
+
+       
+    ]
+}
