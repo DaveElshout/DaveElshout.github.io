@@ -1,4 +1,4 @@
-const allGrades = ["N/A", 6.8, 6];
+const allGrades = [7, 6.8, 6];
 //10, 10,10,10,5.5,10,10,9, 8,7,6,5.5,8,6,7,5.5
 
 function injectGrades() {
